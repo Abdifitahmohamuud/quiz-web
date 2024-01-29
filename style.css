@@ -234,7 +234,22 @@ margin-left: 200px;
     padding-left: 12px;
   }
   .mycard{
-    gap: 5;
+    display: grid;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+  .card{
+    height: 20px;
+  }
+  #media{
+    margin: 0;
+  
+  }
+  .com{
+    display: grid;
+    gap: 6px;
   }
 }
 
